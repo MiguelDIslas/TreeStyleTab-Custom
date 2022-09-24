@@ -2,13 +2,13 @@
 #tabbar {
   border: 0;
   overflow-y: scroll !important;
-  margin-left: 12px !important;
+  /*margin-left: px !important;*/
 }
 
 /* Hide .twisty and adjust margins so favicons have 7px on left. */
 .tab .twisty {
   visibility: hidden;
-  margin-left: -6px;
+  /*margin-left: -6px;*/
 }
 
 /* Push tab labels slightly to the right so they're completely hidden in collapsed state */
@@ -70,6 +70,7 @@
 #tabbar {
   border-right: 1px solid #323234;
   box-shadow: none !important;
+  background-color: rgb(28, 27, 34) !important;
 }
 
 #tabbar:hover .tab .label {
@@ -97,7 +98,7 @@
 }
 
 .tab.active:hover {
-  background-color: #45a1ff !important;
+  /*background-color: #45A1FF !important;*/
 }
 
 /* Adjust style for tab that has sound playing. */
