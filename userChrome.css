@@ -1,6 +1,10 @@
 /* Hide main tabs toolbar */
-#TabsToolbar {
+/* #TabsToolbar {
     visibility: collapse;
+} */
+
+#tabbrowser-tabs {
+  visibility: collapse !important;
 }
 
 /* Sidebar min and max width removal */
