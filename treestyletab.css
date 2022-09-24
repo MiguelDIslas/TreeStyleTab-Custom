@@ -70,11 +70,11 @@
 #tabbar {
   border-right: 1px solid #323234;
   box-shadow: none !important;
-  background-color: rgb(28, 27, 34) !important;
+  background-color: #040407 !important;
 }
 
 #tabbar:hover .tab .label {
-  color: rgba(207, 207, 207, 0.75) !important;
+  color: white !important;
 }
 
 .tab {
@@ -97,9 +97,17 @@
   background-color: #292929 !important;
 }
 
-.tab.active:hover {
-  /*background-color: #45A1FF !important;*/
+.tab.active {
+  background-color: #51667f !important;
 }
+
+/*.tab.active .label {
+  color: white !important;
+}*/
+
+/*.tab.active:hover {
+  background-color: #45A1FF !important;
+}*/
 
 /* Adjust style for tab that has sound playing. */
 .tab.sound-playing .favicon::after {
