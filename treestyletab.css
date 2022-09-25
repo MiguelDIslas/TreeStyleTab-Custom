@@ -24,8 +24,9 @@
 }
 
 /* Hide sound playing/muted button. */
-.sound-button::before {
-  display: none !important;
+.sound-button {
+  /*display: none !important;*/
+  opacity: 0 !important;
 }
 
 /* Hide 'new tab' button. 
@@ -86,6 +87,10 @@
 
 .tab:hover {
   color: rgba(207, 207, 207, 1) !important;
+}
+
+.tab:hover .sound-button {
+  opacity: 1 !important;
 }
 
 .tab.discarded {
